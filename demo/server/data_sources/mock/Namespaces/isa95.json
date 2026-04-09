@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$id": "https://isa.org/isa95/v95.00.03-2005",
+    "types": {
+        "work-center-type": {
+            "description": "ISA-95 Work Center - organizational container with HasChildren relationships",
+            "type": "object"
+        },
+        "work-unit-type": {
+            "description": "ISA-95 Work Unit - can be simple or complex with HasComponent relationships to child elements",
+            "type": "object"
+        }
+    }
+}
