@@ -4,7 +4,7 @@ $ScriptDir = $PSScriptRoot
 # Create config file if it doesn't exist
 if (-not (Test-Path -Path "$ScriptDir\config.json")) {
     Write-Host "Creating default config..." -ForegroundColor Green
-    Copy-Item -Path "$ScriptDir\config-example.json" -Destination "$ScriptDir\config.json"
+    Copy-Item -Path "$ScriptDir\config-aas.json" -Destination "$ScriptDir\config.json"
 }
 
 # Create virtual environment if it doesn't exist or is broken

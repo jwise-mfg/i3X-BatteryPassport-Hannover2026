@@ -5,7 +5,7 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 # Create config file if it doesn't exist
 if [ ! -e "$SCRIPT_DIR/config.json" ]; then
 	echo Creating default config...
-	cp "$SCRIPT_DIR/config-example.json" "$SCRIPT_DIR/config.json"
+	cp "$SCRIPT_DIR/config-aas.json" "$SCRIPT_DIR/config.json"
 fi
 
 # Create virtual environment if it doesn't exist or is broken
